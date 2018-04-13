@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ftk-I1-UwV">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Index View Controller-->
+        <scene sceneID="u2A-UB-YBx">
+            <objects>
+                <viewController id="ftk-I1-UwV" customClass="IndexViewController" customModule="RxNews" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nNg-1Y-a4Z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Na5-4H-6XE">
+                                <rect key="frame" x="0.0" y="66" width="375" height="601"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="4Vw-jg-LAl">
+                                    <size key="itemSize" width="0.0" height="0.0"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3bJ-bj-N9f">
+                                <rect key="frame" x="8" y="28" width="359" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fIX-MQ-JTU" firstAttribute="bottom" secondItem="Na5-4H-6XE" secondAttribute="bottom" id="1R8-Js-Dex"/>
+                            <constraint firstAttribute="trailing" secondItem="Na5-4H-6XE" secondAttribute="trailing" id="IdQ-Xl-Ogx"/>
+                            <constraint firstItem="Na5-4H-6XE" firstAttribute="leading" secondItem="fIX-MQ-JTU" secondAttribute="leading" id="Rmo-gh-Adp"/>
+                            <constraint firstItem="3bJ-bj-N9f" firstAttribute="leading" secondItem="fIX-MQ-JTU" secondAttribute="leading" constant="8" id="TOm-ch-fGB"/>
+                            <constraint firstItem="3bJ-bj-N9f" firstAttribute="top" secondItem="fIX-MQ-JTU" secondAttribute="top" constant="8" id="Ze0-f3-6Fu"/>
+                            <constraint firstItem="Na5-4H-6XE" firstAttribute="top" secondItem="3bJ-bj-N9f" secondAttribute="bottom" constant="8" id="ftI-85-fjR"/>
+                            <constraint firstItem="fIX-MQ-JTU" firstAttribute="trailing" secondItem="3bJ-bj-N9f" secondAttribute="trailing" constant="8" id="rDs-ju-JsO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fIX-MQ-JTU"/>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="Na5-4H-6XE" id="ZsF-HF-cu1"/>
+                        <outlet property="searchTextField" destination="3bJ-bj-N9f" id="gGQ-e7-POC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Y5-xb-51Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-164" y="90"/>
+        </scene>
+        <!--Index View Controller2-->
+        <scene sceneID="UqA-Bb-2HM">
+            <objects>
+                <viewController id="Ss9-Ou-IiB" customClass="IndexViewController2" customModule="RxNews" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8V9-4d-lZ1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="kfw-Cb-sxy">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Cph-Xt-YXl">
+                                    <size key="itemSize" width="0.0" height="0.0"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="kfw-Cb-sxy" firstAttribute="top" secondItem="7aO-cW-onv" secondAttribute="top" id="0RH-OT-VeE"/>
+                            <constraint firstItem="kfw-Cb-sxy" firstAttribute="leading" secondItem="7aO-cW-onv" secondAttribute="leading" id="2Kq-qS-arx"/>
+                            <constraint firstAttribute="trailing" secondItem="kfw-Cb-sxy" secondAttribute="trailing" id="Xcm-JF-CIC"/>
+                            <constraint firstItem="7aO-cW-onv" firstAttribute="bottom" secondItem="kfw-Cb-sxy" secondAttribute="bottom" id="v0h-K3-dxf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7aO-cW-onv"/>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="kfw-Cb-sxy" id="KuW-pB-8SZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tL8-zM-DmO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="545" y="90"/>
+        </scene>
+    </scenes>
+</document>
