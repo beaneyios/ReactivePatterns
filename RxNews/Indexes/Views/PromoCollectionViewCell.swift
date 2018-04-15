@@ -12,10 +12,12 @@ class PromoCollectionViewCell: UICollectionViewCell {
     static var Identifier: String = "PromoCollectionViewCell"
 
     @IBOutlet weak var lblHeadline: UILabel!
+    @IBOutlet weak var lblSummary: UILabel!
+    
+    private var story: StoryProtocol?
 
-    private var story: Story?
-
-    func configure(story: Story) {
+    func configure(story: StoryProtocol) {
         self.lblHeadline.text = story.headline
+        self.lblSummary.text = story.summary
     }
 }

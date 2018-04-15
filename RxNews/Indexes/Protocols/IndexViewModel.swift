@@ -9,5 +9,5 @@
 import Foundation
 
 protocol IndexViewModel {
-    func fetchStories()
+    func fetchStories(forceError: Bool)
 }

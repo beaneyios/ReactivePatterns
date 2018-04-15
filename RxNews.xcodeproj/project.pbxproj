@@ -16,12 +16,32 @@
 		0146F35B2080B7B100CE5C78 /* Indexes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0146F35A2080B7B100CE5C78 /* Indexes.storyboard */; };
 		0146F35E2080B7E100CE5C78 /* PromoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0146F35C2080B7E100CE5C78 /* PromoCollectionViewCell.swift */; };
 		0146F35F2080B7E100CE5C78 /* PromoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0146F35D2080B7E100CE5C78 /* PromoCollectionViewCell.xib */; };
-		0146F3612080B85600CE5C78 /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0146F3602080B85600CE5C78 /* IndexViewController.swift */; };
-		0146F3632080B86200CE5C78 /* DefaultIndexViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0146F3622080B86200CE5C78 /* DefaultIndexViewModel.swift */; };
-		0146F3662080B87800CE5C78 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0146F3652080B87800CE5C78 /* Story.swift */; };
+		0146F3612080B85600CE5C78 /* RxIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0146F3602080B85600CE5C78 /* RxIndexViewController.swift */; };
+		0146F3632080B86200CE5C78 /* RxIndexViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0146F3622080B86200CE5C78 /* RxIndexViewModel.swift */; };
+		0146F3662080B87800CE5C78 /* KVOStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0146F3652080B87800CE5C78 /* KVOStory.swift */; };
 		0146F37B2080D68A00CE5C78 /* IndexViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0146F37A2080D68A00CE5C78 /* IndexViewModel.swift */; };
-		0146F37D2080E5AF00CE5C78 /* DefaultIndexViewModel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0146F37C2080E5AF00CE5C78 /* DefaultIndexViewModel2.swift */; };
-		0146F37F2080E88D00CE5C78 /* IndexViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0146F37E2080E88D00CE5C78 /* IndexViewController2.swift */; };
+		0146F37D2080E5AF00CE5C78 /* KVOIndexViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0146F37C2080E5AF00CE5C78 /* KVOIndexViewModel.swift */; };
+		0146F37F2080E88D00CE5C78 /* KVOIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0146F37E2080E88D00CE5C78 /* KVOIndexViewController.swift */; };
+		0146F383208102A800CE5C78 /* Debouncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0146F382208102A800CE5C78 /* Debouncer.swift */; };
+		0166E5CE208369580091747D /* StoryMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0166E5CD208369580091747D /* StoryMapper.swift */; };
+		0166E5D0208369610091747D /* StoryMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0166E5CF208369610091747D /* StoryMapping.swift */; };
+		0166E5D2208369950091747D /* StoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0166E5D1208369950091747D /* StoryProtocol.swift */; };
+		0166E5D4208369F70091747D /* VanillaStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0166E5D3208369F70091747D /* VanillaStory.swift */; };
+		0166E5D620836A6C0091747D /* StoryFetching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0166E5D520836A6C0091747D /* StoryFetching.swift */; };
+		0166E5D920836D480091747D /* Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0166E5D820836D480091747D /* Index.swift */; };
+		0166E5DC20836E0B0091747D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0166E5DB20836E0B0091747D /* Result.swift */; };
+		0166E5E02083728E0091747D /* IndexParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0166E5DF2083728E0091747D /* IndexParsing.swift */; };
+		0166E5E2208372F20091747D /* IndexParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0166E5E1208372F20091747D /* IndexParser.swift */; };
+		0166E5E4208375000091747D /* IndexDependencyCreating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0166E5E3208375000091747D /* IndexDependencyCreating.swift */; };
+		0166E5E62083754C0091747D /* KVOIndexDependencyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0166E5E52083754C0091747D /* KVOIndexDependencyFactory.swift */; };
+		0166E5E82083759D0091747D /* VanillaIndexDependencyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0166E5E72083759D0091747D /* VanillaIndexDependencyFactory.swift */; };
+		0166E5EE2083BFF70091747D /* ClosureIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0166E5ED2083BFF70091747D /* ClosureIndexViewController.swift */; };
+		0166E5F02083C0070091747D /* Listener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0166E5EF2083C0070091747D /* Listener.swift */; };
+		0166E5F22083C16B0091747D /* ClosureIndexViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0166E5F12083C16B0091747D /* ClosureIndexViewModel.swift */; };
+		0166E5F42083C5DF0091747D /* ClosureIndexDependencyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0166E5F32083C5DF0091747D /* ClosureIndexDependencyFactory.swift */; };
+		0166E5F62083C64A0091747D /* StorySearching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0166E5F52083C64A0091747D /* StorySearching.swift */; };
+		0166E5F82083C6870091747D /* LocalStorySearcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0166E5F72083C6870091747D /* LocalStorySearcher.swift */; };
+		01746B3C2081033B00C1EF79 /* StoryFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01746B3B2081033B00C1EF79 /* StoryFetcher.swift */; };
 		50A85BBAA8A45D5EACC5DB76 /* Pods_RxNewsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 304B1B8D6A8106098F4F8085 /* Pods_RxNewsTests.framework */; };
 		8B2758F5959E9B3E98B9DB5E /* Pods_RxNewsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0CE285065332CEB7CA7DC36 /* Pods_RxNewsUITests.framework */; };
 /* End PBXBuildFile section */
@@ -58,12 +78,32 @@
 		0146F35A2080B7B100CE5C78 /* Indexes.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Indexes.storyboard; sourceTree = "<group>"; };
 		0146F35C2080B7E100CE5C78 /* PromoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCollectionViewCell.swift; sourceTree = "<group>"; };
 		0146F35D2080B7E100CE5C78 /* PromoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PromoCollectionViewCell.xib; sourceTree = "<group>"; };
-		0146F3602080B85600CE5C78 /* IndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
-		0146F3622080B86200CE5C78 /* DefaultIndexViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultIndexViewModel.swift; sourceTree = "<group>"; };
-		0146F3652080B87800CE5C78 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		0146F3602080B85600CE5C78 /* RxIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxIndexViewController.swift; sourceTree = "<group>"; };
+		0146F3622080B86200CE5C78 /* RxIndexViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxIndexViewModel.swift; sourceTree = "<group>"; };
+		0146F3652080B87800CE5C78 /* KVOStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVOStory.swift; sourceTree = "<group>"; };
 		0146F37A2080D68A00CE5C78 /* IndexViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexViewModel.swift; sourceTree = "<group>"; };
-		0146F37C2080E5AF00CE5C78 /* DefaultIndexViewModel2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultIndexViewModel2.swift; sourceTree = "<group>"; };
-		0146F37E2080E88D00CE5C78 /* IndexViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexViewController2.swift; sourceTree = "<group>"; };
+		0146F37C2080E5AF00CE5C78 /* KVOIndexViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVOIndexViewModel.swift; sourceTree = "<group>"; };
+		0146F37E2080E88D00CE5C78 /* KVOIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVOIndexViewController.swift; sourceTree = "<group>"; };
+		0146F382208102A800CE5C78 /* Debouncer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debouncer.swift; sourceTree = "<group>"; };
+		0166E5CD208369580091747D /* StoryMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryMapper.swift; sourceTree = "<group>"; };
+		0166E5CF208369610091747D /* StoryMapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryMapping.swift; sourceTree = "<group>"; };
+		0166E5D1208369950091747D /* StoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryProtocol.swift; sourceTree = "<group>"; };
+		0166E5D3208369F70091747D /* VanillaStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VanillaStory.swift; sourceTree = "<group>"; };
+		0166E5D520836A6C0091747D /* StoryFetching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryFetching.swift; sourceTree = "<group>"; };
+		0166E5D820836D480091747D /* Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Index.swift; sourceTree = "<group>"; };
+		0166E5DB20836E0B0091747D /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		0166E5DF2083728E0091747D /* IndexParsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexParsing.swift; sourceTree = "<group>"; };
+		0166E5E1208372F20091747D /* IndexParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexParser.swift; sourceTree = "<group>"; };
+		0166E5E3208375000091747D /* IndexDependencyCreating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexDependencyCreating.swift; sourceTree = "<group>"; };
+		0166E5E52083754C0091747D /* KVOIndexDependencyFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVOIndexDependencyFactory.swift; sourceTree = "<group>"; };
+		0166E5E72083759D0091747D /* VanillaIndexDependencyFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VanillaIndexDependencyFactory.swift; sourceTree = "<group>"; };
+		0166E5ED2083BFF70091747D /* ClosureIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureIndexViewController.swift; sourceTree = "<group>"; };
+		0166E5EF2083C0070091747D /* Listener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listener.swift; sourceTree = "<group>"; };
+		0166E5F12083C16B0091747D /* ClosureIndexViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureIndexViewModel.swift; sourceTree = "<group>"; };
+		0166E5F32083C5DF0091747D /* ClosureIndexDependencyFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureIndexDependencyFactory.swift; sourceTree = "<group>"; };
+		0166E5F52083C64A0091747D /* StorySearching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorySearching.swift; sourceTree = "<group>"; };
+		0166E5F72083C6870091747D /* LocalStorySearcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorySearcher.swift; sourceTree = "<group>"; };
+		01746B3B2081033B00C1EF79 /* StoryFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryFetcher.swift; sourceTree = "<group>"; };
 		174CDC2F5577C48EA9E5302D /* Pods-RxNewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxNewsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxNewsTests/Pods-RxNewsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		304B1B8D6A8106098F4F8085 /* Pods_RxNewsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxNewsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0B95F89E1156A788009A92 /* Pods-RxNewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxNewsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxNewsTests/Pods-RxNewsTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -128,6 +168,8 @@
 		0146F3252080B67100CE5C78 /* RxNews */ = {
 			isa = PBXGroup;
 			children = (
+				0166E5EA20837A100091747D /* Dependency Managers */,
+				0146F3802081029700CE5C78 /* Core */,
 				0146F3542080B68100CE5C78 /* Indexes */,
 				0146F3262080B67100CE5C78 /* AppDelegate.swift */,
 				0146F32D2080B67100CE5C78 /* Assets.xcassets */,
@@ -158,6 +200,7 @@
 		0146F3542080B68100CE5C78 /* Indexes */ = {
 			isa = PBXGroup;
 			children = (
+				0166E5D720836D3C0091747D /* Enums */,
 				0146F3562080B69600CE5C78 /* Controllers */,
 				0146F3642080B87100CE5C78 /* Model */,
 				0146F3672080B8A400CE5C78 /* Protocols */,
@@ -180,6 +223,10 @@
 		0146F3562080B69600CE5C78 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				0166E5CD208369580091747D /* StoryMapper.swift */,
+				0166E5E1208372F20091747D /* IndexParser.swift */,
+				01746B3B2081033B00C1EF79 /* StoryFetcher.swift */,
+				0166E5F72083C6870091747D /* LocalStorySearcher.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -196,8 +243,9 @@
 		0146F3582080B69E00CE5C78 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				0146F3602080B85600CE5C78 /* IndexViewController.swift */,
-				0146F37E2080E88D00CE5C78 /* IndexViewController2.swift */,
+				0166E5ED2083BFF70091747D /* ClosureIndexViewController.swift */,
+				0146F37E2080E88D00CE5C78 /* KVOIndexViewController.swift */,
+				0146F3602080B85600CE5C78 /* RxIndexViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -205,8 +253,9 @@
 		0146F3592080B6A700CE5C78 /* View Models */ = {
 			isa = PBXGroup;
 			children = (
-				0146F3622080B86200CE5C78 /* DefaultIndexViewModel.swift */,
-				0146F37C2080E5AF00CE5C78 /* DefaultIndexViewModel2.swift */,
+				0166E5F12083C16B0091747D /* ClosureIndexViewModel.swift */,
+				0146F37C2080E5AF00CE5C78 /* KVOIndexViewModel.swift */,
+				0146F3622080B86200CE5C78 /* RxIndexViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -214,7 +263,8 @@
 		0146F3642080B87100CE5C78 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				0146F3652080B87800CE5C78 /* Story.swift */,
+				0146F3652080B87800CE5C78 /* KVOStory.swift */,
+				0166E5D3208369F70091747D /* VanillaStory.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -222,9 +272,76 @@
 		0146F3672080B8A400CE5C78 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				0166E5DF2083728E0091747D /* IndexParsing.swift */,
 				0146F37A2080D68A00CE5C78 /* IndexViewModel.swift */,
+				0166E5D520836A6C0091747D /* StoryFetching.swift */,
+				0166E5CF208369610091747D /* StoryMapping.swift */,
+				0166E5D1208369950091747D /* StoryProtocol.swift */,
+				0166E5F52083C64A0091747D /* StorySearching.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		0146F3802081029700CE5C78 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0166E5DA20836E050091747D /* Enums */,
+				0146F381208102A000CE5C78 /* Controllers */,
+			);
+			name = Core;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		0146F381208102A000CE5C78 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0146F382208102A800CE5C78 /* Debouncer.swift */,
+				0166E5EF2083C0070091747D /* Listener.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0166E5D720836D3C0091747D /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				0166E5D820836D480091747D /* Index.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		0166E5DA20836E050091747D /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				0166E5DB20836E0B0091747D /* Result.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		0166E5EA20837A100091747D /* Dependency Managers */ = {
+			isa = PBXGroup;
+			children = (
+				0166E5EC20837A1C0091747D /* Controllers */,
+				0166E5EB20837A180091747D /* Protocols */,
+			);
+			path = "Dependency Managers";
+			sourceTree = "<group>";
+		};
+		0166E5EB20837A180091747D /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				0166E5E3208375000091747D /* IndexDependencyCreating.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		0166E5EC20837A1C0091747D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0166E5F32083C5DF0091747D /* ClosureIndexDependencyFactory.swift */,
+				0166E5E52083754C0091747D /* KVOIndexDependencyFactory.swift */,
+				0166E5E72083759D0091747D /* VanillaIndexDependencyFactory.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		4CE8486607D510E9E844654E /* Pods */ = {
@@ -466,14 +583,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0146F37D2080E5AF00CE5C78 /* DefaultIndexViewModel2.swift in Sources */,
+				0146F37D2080E5AF00CE5C78 /* KVOIndexViewModel.swift in Sources */,
+				0166E5F62083C64A0091747D /* StorySearching.swift in Sources */,
+				0166E5D920836D480091747D /* Index.swift in Sources */,
 				0146F35E2080B7E100CE5C78 /* PromoCollectionViewCell.swift in Sources */,
+				0146F383208102A800CE5C78 /* Debouncer.swift in Sources */,
 				0146F3272080B67100CE5C78 /* AppDelegate.swift in Sources */,
-				0146F3612080B85600CE5C78 /* IndexViewController.swift in Sources */,
-				0146F37F2080E88D00CE5C78 /* IndexViewController2.swift in Sources */,
-				0146F3632080B86200CE5C78 /* DefaultIndexViewModel.swift in Sources */,
-				0146F3662080B87800CE5C78 /* Story.swift in Sources */,
+				0146F3612080B85600CE5C78 /* RxIndexViewController.swift in Sources */,
+				0166E5E62083754C0091747D /* KVOIndexDependencyFactory.swift in Sources */,
+				0166E5F02083C0070091747D /* Listener.swift in Sources */,
+				0166E5D2208369950091747D /* StoryProtocol.swift in Sources */,
+				0166E5E02083728E0091747D /* IndexParsing.swift in Sources */,
+				01746B3C2081033B00C1EF79 /* StoryFetcher.swift in Sources */,
+				0166E5D4208369F70091747D /* VanillaStory.swift in Sources */,
+				0166E5D620836A6C0091747D /* StoryFetching.swift in Sources */,
+				0146F37F2080E88D00CE5C78 /* KVOIndexViewController.swift in Sources */,
+				0166E5E2208372F20091747D /* IndexParser.swift in Sources */,
+				0166E5E82083759D0091747D /* VanillaIndexDependencyFactory.swift in Sources */,
+				0146F3632080B86200CE5C78 /* RxIndexViewModel.swift in Sources */,
+				0146F3662080B87800CE5C78 /* KVOStory.swift in Sources */,
+				0166E5CE208369580091747D /* StoryMapper.swift in Sources */,
+				0166E5F82083C6870091747D /* LocalStorySearcher.swift in Sources */,
+				0166E5F42083C5DF0091747D /* ClosureIndexDependencyFactory.swift in Sources */,
+				0166E5DC20836E0B0091747D /* Result.swift in Sources */,
+				0166E5EE2083BFF70091747D /* ClosureIndexViewController.swift in Sources */,
+				0166E5E4208375000091747D /* IndexDependencyCreating.swift in Sources */,
+				0166E5F22083C16B0091747D /* ClosureIndexViewModel.swift in Sources */,
 				0146F37B2080D68A00CE5C78 /* IndexViewModel.swift in Sources */,
+				0166E5D0208369610091747D /* StoryMapping.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

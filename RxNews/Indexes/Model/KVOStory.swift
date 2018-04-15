@@ -8,14 +8,12 @@
 
 import Foundation
 
-@objc class Story : NSObject {
+class KVOStory : NSObject, StoryProtocol {
     var headline: String
     var summary: String
-    var imageLink: String
 
-    init(headline: String, summary: String, imageLink: String) {
+    required init(headline: String, summary: String) {
         self.headline = headline
         self.summary = summary
-        self.imageLink = imageLink
     }
 }
